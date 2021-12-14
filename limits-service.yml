@@ -18,6 +18,11 @@
 # management:
 #   security: 
 #     enabled: false
+
+spring:
+  application:
+    name: spring-cloud-config-server
+
     
 limits-service:
   minimum: '3'
