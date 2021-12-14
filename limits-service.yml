@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8080
   
 spring:
   cloud:
@@ -18,3 +18,7 @@ spring:
 management:
   security: 
     enabled: false
+    
+limits-service:
+  minimum: '3'
+  maximum: '996'
