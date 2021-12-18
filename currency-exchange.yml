@@ -1,9 +1,4 @@
-
-   spring:
-  cloud:
-    config:
-      name: cloud-config-server
-      
+  
  server:
    port: 8005
    
